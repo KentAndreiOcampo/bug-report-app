@@ -7,7 +7,7 @@ export default function BugList({ bugs, onDelete, loading, error }) {
 
   return (
     <div style={{ marginTop: '30px', background: '#ffffff', padding: '20px', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
-      <h2>Submitted Bug Reports</h2>
+      <h2 style={{ color: '#000000', marginTop: '0', marginBottom: '15px' }}>Submitted Bug Reports</h2>
       <table style={{ width: '100%', marginTop: '15px', borderCollapse: 'collapse' }}>
         <thead>
           <tr style={{ background: '#f1f1f1', textAlign: 'left' }}>
