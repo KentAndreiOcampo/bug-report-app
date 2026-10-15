@@ -1,0 +1,13 @@
+# Ignore environment variables (contains sensitive passwords)
+.env
+*.env
+
+# Ignore installed dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Ignore build files and logs
+client/dist/
+*.log
+.DS_Store
