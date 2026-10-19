@@ -65,22 +65,13 @@ GET,/api/bugs, - Fetches all submitted bug reports from the MySQL database
 POST,/api/bugs, - Saves a new bug report entry into the database
 DELETE,/api/bugs/:id, - Removes a bug report entry from the database by ID
 
-## Screenshots
-
-1. **Bug Submission Form UI:**  
-   <a href="./Screenshots/SubmissionFormUI.png" target="_blank">
-     <img src="./Screenshots/SubmissionFormUi.png" alt="Bug Submission Form" width="600"/>
-   </a>
-
-2. **Submitted Bug Reports Table:**  
-   <a href="./Screenshots/Submitted%20Bug%20Reports.png" target="_blank">
-     <img src="./Screenshots/Submitted%20Bug%20Reports.png" alt="Submitted Bug Reports" width="600"/>
-   </a>
-
-3. **phpMyAdmin Database View:**  
-   <a href="./Screenshots/Database%20View.png" target="_blank">
-     <img src="./Screenshots/Database%20View.png" alt="Database View" width="600"/>
-   </a>
+Screenshots:
+1. Bug Submission Form UI:
+(Form view allowing user input for Title, Description, Severity level, and Steps to Reproduce) 
+2. Submitted Bug Reports Table:
+(Table displaying existing entries retrieved from the server)
+3. phpMyAdmin Database View:
+(View of the bugtrackerdb database verifying persistent storage in MySQL)
 
 Bonus Features Implemented:
 1. Severity Categorization: Allows users to tag bug severity levels (Low, Medium, High, Critical) for better prioritization.

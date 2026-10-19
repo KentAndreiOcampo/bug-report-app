@@ -8,7 +8,7 @@ export default function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Fetch initial records when page opens using useEffect[cite: 1]
+  // Fetch initial records when page opens using useEffect
   useEffect(() => {
     const fetchBugs = async () => {
       try {
